@@ -1,0 +1,64 @@
+img{
+    margin: 15px 15px;
+    gap: 30px;
+    text-align: center;
+ 
+}
+.home__header{
+background-color: orangered;
+ display: flex;
+ height: 90px;
+
+ 
+
+}
+.home__header-logo{
+    display: flex;
+    width: 30%;
+    height: 90px;
+    align-self: center;
+
+}
+.header__caja-padre-burger{   
+background: none;
+ padding: 0 5px;
+border: none;
+ margin:35px 40px;
+ height: 35px;
+ text-align:center;
+width: 30%;
+}
+.fas {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.home__header-menu{
+display: none;
+
+}
+.home__header-login{ 
+   height: 90px;
+   padding-top: 20px;
+   width: 30%;
+   
+   
+   }
+.home__header-login ul li { 
+ list-style: none; 
+margin-top: 10px;
+ text-align: right;
+
+
+
+}
+.home__header-login ul li a{
+color: white;
+font-family: var(--YsabeauSC); 
+text-decoration: none;
+margin:25px 15px;
+
+}
