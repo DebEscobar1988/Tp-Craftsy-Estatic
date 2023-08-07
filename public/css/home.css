@@ -1,4 +1,144 @@
-.home__mian__caja-chica{
-    font-family: var(--YsabeauSC);
-    background-color:yellow ;
+.main__caja__padre-product{
+margin-top: 30px;
 }
+
+.main__caja__padre-product article {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+
+}
+
+.main__caja__padre-product article img {
+    width: 90%;
+
+}
+.main__caja__padre-product article a {
+
+   font-size: 20px;
+   font-weight: 700;
+   color: rgb(250, 96, 85);
+
+}
+
+.home__mian__caja-chica {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+
+}
+
+.home__mian__caja-chica h3,
+.home__mian__caja-chica p {
+
+    padding-bottom: 7px;
+
+}
+
+.main_aside_padre {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titleAside {
+    background-color: white;
+    border: 1px gray solid;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 22px;
+
+}
+
+.main_aside_padre img {
+  width: 50%;
+   
+
+}
+
+.main_aside_padre aside {
+    background-color: aliceblue;
+    width: 90%;
+    margin: 10px auto;
+    border: 1px gray solid;
+    display: flex;
+
+}
+.main_aside_padre p {
+align-self: center;
+}
+
+.publicidad{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.publicidad h2{
+    width: 100%;
+}
+.publicidad img{
+    width: 90%;
+    margin: 10px auto;
+    padding: 0;
+}
+
+@media (min-width: 768px){
+ 
+   
+    .main__caja__padre-product{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .main__caja__padre-product article{
+      width: 45%;
+    }
+    .titleAside {
+        margin: 70px 0 20px 0;
+        width: 95%;
+        font-size: 40px;
+    }
+    h3.titleAside{
+        font-size: 40px;
+    }
+    .main_aside_padre aside {
+        background-color: aliceblue;
+        width: 95%;
+        margin: 10px auto;
+        border: 1px gray solid;
+        display: flex;
+    
+    }
+    .publicidad{
+        width: 95%;
+        margin-bottom: 50px;
+    }
+    .main_aside_padre p {
+        font-size: 28px;
+        }}
+        
+@media (min-width: 1024px){
+
+    .mainContenedor{
+     display: flex;
+    }
+    
+    .main__caja__padre-product article{
+      width:50% ;
+    }
+    .main__caja__padre-product{
+     flex-direction: column;
+     width: 100%;
+     padding: 0;
+
+    }
+}
+

@@ -2,6 +2,7 @@ img{
     margin: 15px 15px;
     gap: 30px;
     text-align: center;
+    width: 100px;
  
 }
 .home__header{
@@ -23,12 +24,12 @@ background-color: orangered;
 background: none;
  padding: 0 5px;
 border: none;
- margin:35px 40px;
+ margin:22px 40px;
  height: 35px;
  text-align:center;
 width: 30%;
 }
-.fas {
+.header__caja-padre-burger i{
   text-align: center;
   background-color: black;
   color: white;
@@ -42,7 +43,7 @@ display: none;
 }
 .home__header-login{ 
    height: 90px;
-   padding-top: 20px;
+   padding-top: 10px;
    width: 30%;
    
    
@@ -61,4 +62,44 @@ font-family: var(--YsabeauSC);
 text-decoration: none;
 margin:25px 15px;
 
+}
+
+@media (min-width: 768px){
+  .home__header{
+      height: 120px;
+  }
+  .home__header-logo{
+    width: 40%;
+    height: auto;
+    
+  }
+  .home__header-logo img{
+    width: 70%;
+    height: auto;
+    
+  }
+  .home__header-login ul{
+display: flex;
+margin-top: 28px;
+
+  }
+  .home__header-login ul a{
+   font-size: 22px;
+    
+      }
+
+      .header__caja-padre-burger{   
+        background: none;
+         padding: 0 5px;
+        border: none;
+         margin:31px 40px;
+         height: 45px;
+         text-align:center;
+        width: 30%;
+        }
+        .header__caja-padre-burger i{
+       
+          font-size: 25px;
+        
+        }
 }

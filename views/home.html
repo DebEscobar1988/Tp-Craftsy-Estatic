@@ -5,12 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
     <title>Craftsy || Home</title>
-    <link rel="stylesheet" href=".../css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
+    <header class="home__header">
+        <div class="home__header-logo"><img src="/img/logo.png" alt="logo"></div>
+        <button class="header__caja-padre-burger">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="home__header-produc">
+            <ul class="home__header-menu">
+                <li><a href="/smartphones">smartphones</a></li>
+                <li><a href="/tablets">tablets</a></li>
+                <li><a href="/computadoras">computadoras</a></li>
+            </ul>
+            <section class="home__header-login">
+                <ul>
+                    <li><a href="/LOGIN">LOGIN</a></li>
+                    <li><a href="/REGISTRO">REGISTRO</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
     
-    <main>
-        <div class="main__caja__padre-produc">
+    <main class="mainContenedor">
+        <div class="main__caja__padre-product">
             <article>
                 <img src="/img/img-phone-01.jpg" alt="phone-01">
                 <div class="home__mian__caja-chica">
@@ -67,7 +86,8 @@
                 </div>
             </article>
         </div>
-        <div>
+        <div class="main_aside_padre">
+            <h3 class="titleAside">Tutoriales</h3>
             <aside>
                 <img src="/img/aside-01.jpg" alt="aside-01">
                 <p>Lorem ipsum dolor sit amet coanimi. Atque
@@ -88,12 +108,13 @@
                 <p>Lorem ipsum dolor sit amet coanimi. Atque
                 Lorem ipsum dolor sit amet consectetur.</p>
             </aside>
-    
-            <aside>
-            <h2>Publicidad</h2>
-            <img src="/logo-pajaro.jpg" alt="logo-pajaro ">
-            <img src="/logo-pajaro-de-sol.jpg" alt="logo-pajaro">
-            </aside>
+          
+            <div class="publicidad">
+            <h2 class="titleAside">Publicidad</h2>
+            <img src="/img/logo-pajaro.jpg" alt="logo-pajaro ">
+            <img src="/img/logo-puesta-de-sol.jpg" alt="logo-pajaro">
+           </aside>
         </div>
-    </main></body>
+    </main>
+</body>
 </html>
